@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaMeLi-React__Home</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo-container" href="/">
+            <img class="logo-container__img" src="/images/logo.png" alt="logo">
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu__ul">
+                <li class="main-menu__li">
+                    <a class="main-menu__a" href="#">Inicio</a>
+                </li>
+                <li class="main-menu__li">
+                    <a class="main-menu__a" href="#">Perfil</a>
+                </li>
+                <li class="main-menu__li">
+                    <a class="main-menu__a" href="#">FAQs</a>
+                </li>
+                <li class="main-menu__li">
+                    <a class="main-menu__a" href="#">Nosotros</a>
+                </li>
+                <li class="main-menu__li">
+                    <a class="main-menu__a" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="buttons-container">
+            <a class="buttons-container__login" href="#">Ingresá</a>
+            <a class="buttons-container__sign-up" href="#">Creá tu cuenta</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-slider">
+            <div id="slider" class="slider">
+                <div class="slider__section slider__section--1">
+                    <img class="slider__img" src="https://mameli.herokuapp.com/imagenes/carroLogo.png" alt="">
+                </div>
+                <div class="slider__section slider__section--2">
+                    <img class="slider__img" src="https://mameli.herokuapp.com/imagenes/carro1.png" alt="">
+                </div>
+                <div class="slider__section slider__section--3">
+                    <img class="slider__img" src="https://mameli.herokuapp.com/imagenes/carro3.png" alt="">
+                </div>
+            </div>
+            
+            <!-- <div id="btn-left" class="slider__btn slider__btn--left">&#60</div> -->
+            <div id="btn-left" class="slider__btn slider__btn--left"><i class="fas fa-chevron-left"></i></div>
+            <!-- <div id="btn-right" class="slider__btn slider__btn--right">&#62</div> -->
+            <div id="btn-right" class="slider__btn slider__btn--right"><i class="fas fa-chevron-right"></i></div>
+            
+            <div id="slider__identifier-container" class="slider__identifier-container">
+                <div id="slider__identifier-1" class="slider__identifier selected"></div>
+                <div id="slider__identifier-2" class="slider__identifier"></div>
+                <div id="slider__identifier-3" class="slider__identifier"></div>
+            </div>
+        </div>         
+        <nav class="menu-categories">
+            <img class="menu-categories__title menu-categories__title--mobile block margin-left-right-auto" src="/images/banners/banner-categorias-mobile.JPG" alt="">
+            <img class="menu-categories__title menu-categories__title--desktop block margin-left-right-auto" src="/images/banners/banner-categorias-desktop.JPG" alt="">
+            <ul class="menu-categories__ul margin-left-right-auto">
+                <li class="menu-categories__li">
+                    <a class="menu-categories__a" href="#accesorios">
+                        <img class="menu-categories__img" src="https://mameli.herokuapp.com/imagenes/accesorio-categoria.png" alt="">
+                        <span>ACCESORIOS</span>
+                    </a>
+                </li>
+                <li class="menu-categories__li">
+                    <a class="menu-categories__a" href="#combos">
+                        <img class="menu-categories__img" src="https://mameli.herokuapp.com/imagenes/combo-categoria.png" alt="">
+                        <span>COMBOS</span>
+                    </a>
+                </li>
+                <li class="menu-categories__li">
+                    <a class="menu-categories__a" href="#macetas">
+                        <img class="menu-categories__img" src="https://mameli.herokuapp.com/imagenes/maceta-categoria.png" alt="">
+                        <span>MACETAS</span>
+                    </a>
+                </li>
+                <li class="menu-categories__li">
+                    <a class="menu-categories__a" href="#plantas">
+                        <img class="menu-categories__img" src="https://mameli.herokuapp.com/imagenes/planta-categoria.png" alt="">
+                        <span>PLANTAS</span>
+                    </a>
+                </li>
+                <li class="menu-categories__li">
+                    <a class="menu-categories__a" href="#terrarios">
+                        <img class="menu-categories__img" src="https://mameli.herokuapp.com/imagenes/terrario-categoria.png" alt="">
+                        <span>TERRARIOS</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="best-sellers">
+            <img class="best-sellers__title best-sellers__title--mobile block margin-left-right-auto" src="/images/banners/banner-los-mas-vendidos-mobile.JPG" alt="">
+            <img class="best-sellers__title best-sellers__title--desktop block margin-left-right-auto" src="/images/banners/banner-los-mas-vendidos-desktop.JPG" alt="">
+            <div class="best-sellers__flex-container">
+                <div class="best-sellers__flex-item">
+                    <article class="best-sellers__product">
+                        <a href="#product1">
+                            <img class="best-sellers__img" src="https://mameli.herokuapp.com/imagenes/productImages/1631316046051.jpg" alt="">
+                            <h4>MACETA ADUKI</h4>
+                            <span>$1400</span>
+                            <span class="best-sellers__cover"></span>
+                        </a>
+                    </article>
+                </div>
+                <div class="best-sellers__flex-item">
+                    <article class="best-sellers__product">
+                        <a href="#product2">
+                            <img class="best-sellers__img" src="https://mameli.herokuapp.com/imagenes/productImages/1630733510302.jpg" alt="">
+                            <h4>DÚO ZEN + SENECIO</h4>
+                            <span>$3400</span>
+                            <span class="best-sellers__cover"></span>
+                        </a>
+                    </article>
+                </div>
+                <div class="best-sellers__flex-item">
+                    <article class="best-sellers__product">
+                        <a href="#product3">
+                            <img class="best-sellers__img" src="https://mameli.herokuapp.com/imagenes/productImages/1630733523315.jpg" alt="">
+                            <h4>MACETAS IMANTADAS MINI</h4>
+                            <span>$350</span>
+                            <span class="best-sellers__cover"></span>
+                        </a>
+                    </article>
+                </div>
+                <div class="best-sellers__flex-item">
+                    <article class="best-sellers__product">
+                        <a href="#product4">
+                            <img class="best-sellers__img" src="http://mameli.herokuapp.com/imagenes/productImages/1632880452008.jpeg" alt="">
+                            <h4>TERRARIO AVENTURA</h4>
+                            <span>$3000</span>
+                            <span class="best-sellers__cover"></span>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="logo-container footer__logo-container" href="/">
+            <img class="logo-container__img" src="/images/logo.png" alt="logo">
+        </a>
+        <div class="footer__contact">
+            <span>Contacto</span>
+            <a href="tel:55124097">
+                <i class="fas fa-phone-alt"></i>
+                5512-4097                
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5491127638473">
+                <i class="fab fa-whatsapp"></i>
+                11-2763-8473
+            </a>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i>
+                Av. Lincoln 2445 - Cap. Fed. 
+            </a>    
+        </div>
+        <div class="footer__social-media">
+            <span>Redes</span>
+            <a href="#">
+                <i class="fab fa-facebook"></i>  
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/17464b966e.js"></script>
+    <script src="javaScript/index.js"></script>
+</body>
+</html>
